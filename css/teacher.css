@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f0f4f8;
+}
+h1{
+   color: #979393;
+   font-size: 80px;
+}
+h2, h3, h4 {
+  color: #333;
+}
+
+#studentPosts > div {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.entry {
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input.adviceInput {
+  width: 90%;
+  padding: 6px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+ button.sendAdvice { 
+  /* margin-top: 8px; */
+  padding: 6px 12px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.sendAdvice:hover {
+  background-color: #1976D2;
+} 
+
+#logoutBtn {
+  /* margin-top: 10px; */
+  padding: 10px 20px;
+  background-color: #2196F3; /* 青系 */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#logoutBtn:hover {
+  background-color: #1976D2; /* 濃い青 */
+}

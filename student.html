@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>にほんごノート（student）</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="./css/student.css" />
+  </head>
+  <body>
+    <h1>Student</h1>
+    <h2 id="studentGreeting"></h2>
+
+    <form id="diaryForm">
+      <label>日付 <input type="date" name="date" required /></label><br />
+      <label>ことば <input type="text" name="kotoba" required /></label><br />
+      <label>ぶん <input type="text" name="bun" required /></label><br />
+      <label>かんじ <input type="text" name="kanji" /></label><br />
+      <label>メモ <textarea name="memo"></textarea></label><br />
+      <button type="submit">送信</button>
+    </form>
+
+    <h3>これまでのやりとり</h3>
+    <div id="diaryList"></div>
+    <button id="logoutBtn">ログアウト</button>
+
+    <script type="module" src="./js/student.js"></script>
+  </body>
+</html>
